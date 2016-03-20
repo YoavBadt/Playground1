@@ -1,0 +1,39 @@
+body{
+  background:lightgrey;
+  
+}
+
+.main{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.tabs{
+  width:100vw;
+  height:40px;
+  background:white;
+  margin-bottom: 1px;
+}
+
+.controls{
+  width:200px;
+  height:100vh;
+  background:white;
+  margin-right:1px;
+}
+.c{
+  display:flex;
+
+}
+.c p{
+  flex-grow: 1;
+}
+.stage{
+  background:red;
+  flex-grow: 2;
+  margin-right: 1px;
+  height:100vh;
+  background:white;
+
+}
